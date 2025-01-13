@@ -4,3 +4,13 @@ GET {{TodoApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+GET {{TodoApi_HostAddress}}/api/TodoItems
+Accept: application/json
+
+###
+
+DELETE {{TodoApi_HostAddress}}/api/TodoItems/13
+Accept: application/json
+
+###
